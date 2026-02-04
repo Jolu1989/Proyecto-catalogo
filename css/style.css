@@ -211,3 +211,18 @@ h3 {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque__titulo{
+    margin: 0;
+}
